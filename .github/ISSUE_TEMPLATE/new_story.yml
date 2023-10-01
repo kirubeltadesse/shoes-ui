@@ -1,0 +1,39 @@
+name: New Feature
+description: A new feature that needs to be developed
+title: "[UI] <title>"
+labels: ["new-feature", "documentation", "cicd", "ui", "enhancement"]
+projects: ["Shoes Project"]
+assignees:
+  - kirubeltadesse
+  - roberamelaek
+
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Add information about the story
+      placeholder: Tell us about the general goal
+    validations:
+      required: true
+  - type: textarea
+    id: criteria
+    attributes:
+      label: Acceptable criteria
+      description: list of requirements for this story
+      placeholder: |
+        1. Environment setup ...
+        1. With this config ...
+        1. Develop this ..
+        1. Run ...
+        1. Test ...
+    validations:
+      required: true
+  - type: textarea
+    id: related-story
+    attributes:
+      label: Related strory
+      description: Does this relate to any previous work?
+      placeholder: "FIX #<id>"
+    validations:
+      required: false
