@@ -147,7 +147,7 @@ function classNames(...classes: any[]) {
   return classes.filter(Boolean).join(" ");
 }
 
-export const Header = ({}: HeaderProps) => {
+export const Header = ({ onCreateAccount, onLogin, onLogout }: HeaderProps) => {
   const [open, setOpen] = useState(false);
   return (
     <div className="bg-white">

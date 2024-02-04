@@ -1,15 +1,14 @@
-import React from "react";
-import { Header } from "./components/Header";
 import "./App.css";
 import "./input.css";
 import Home from "./components/Home";
 import Filters from "./components/Filters";
-
-interface HeaderProps {
-  onLogin: () => void;
-  onLogout: () => void;
-  onCreateAccount: () => void;
-}
+import { Header } from "./components/Header";
+import "../node_modules/react-refresh/runtime.js";
+// interface HeaderProps {
+//   onLogin: () => void;
+//   onLogout: () => void;
+//   onCreateAccount: () => void;
+// }
 
 const onLoginHandler = () => {
   console.log("Login");

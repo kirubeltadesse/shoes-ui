@@ -36,5 +36,5 @@ export const CartState = () => {
 };
 
 // TODO: https://www.youtube.com/watch?v=HptuMAUaNGk&ab_channel=RoadsideCoder
-// stopped at 35:00 minutes
+// stopped at 45:27 minutes
 // use the context into the components
